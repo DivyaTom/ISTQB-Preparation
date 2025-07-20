@@ -9,4 +9,4 @@ The ISTQB Foundation Level syllabus consists of the following key chapters:
 5. Test Management  
 6. Tool Support for Testing
 
-This repo currently covers Chapters 2, 3, and 6.
+This repo currently covers Chapters 2, 3, 1 and 6.
