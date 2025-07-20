@@ -1,0 +1,98 @@
+Chapter 2: Testing Throughout the Software Development Lifecycle (SDLC) 🔄 (130 minutes)
+--------------------------------------------------------------------------------
+This chapter shows how testing fits into different ways of building software.
+
+2.1 Testing in the Context of a Software Development Lifecycle (SDLC)
+---------------------------------------------------------------------
+• An SDLC model is a high-level plan for how software is developed, showing how different steps connect. Examples include Waterfall (steps follow each other), Iterative (repeating cycles like Spiral), and Incremental (building in small parts like Unified Process).
+• Agile practices like Scrum, Kanban, and Test-Driven Development (TDD) are more detailed ways of working.
+
+2.1.1 How the SDLC Impacts Testing
+--------------------------------------
+The SDLC choice affects:
+• What and when testing activities happen (e.g., test levels, types).
+• How detailed test documents are.
+• Which test techniques and approaches are used.
+• How much automation is done.
+• The tester's roles and responsibilities.
+• For example, in Waterfall, dynamic testing usually happens later. In Agile, both static and dynamic testing can happen often in each small step, needing lots of automation for repeated tests.
+2.1.2 Good Testing Practices for Any SDLC
+----------------------------------------
+No matter the SDLC, good testing usually involves:
+• A test activity for every development activity to check quality.
+• Each test level (see below) having clear and different goals to avoid wasted effort.
+• Starting test analysis and design early.
+• Testers reviewing documents early to find defects.
+2.1.3 Testing as a Driver for Software Development
+---------------------------------------------------
+Some approaches use tests to guide development, starting tests before code. This helps with early testing and shift left:
+• Test-Driven Development (TDD): Write tests first, then write code to pass those tests.
+• Acceptance Test-Driven Development (ATDD): Tests are created from "acceptance criteria" (what the user needs) before the software is built to meet them.
+• Behavior-Driven Development (BDD): Describes software behavior using simple, natural language tests (like "Given/When/Then").
+2.1.4 DevOps and Testing
+--------------------------
+• DevOps means Development (including testing) and Operations teams working closely together.
+• It aims for faster, higher-quality software releases through continuous integration (CI) and continuous delivery (CD) pipelines.
+• Benefits for Testing:
+    ◦ Quick feedback on code quality.
+    ◦ Shift left promoted by CI (developers writing tests and using static analysis).
+    ◦ Easier to set up test environments.
+    ◦ Better view of non-functional quality (like speed, security).
+    ◦ Less manual repetitive testing due to automation.
+    ◦ Reduced risk of breaking existing features (regression).
+• Risks/Challenges: Setting up and maintaining the DevOps pipeline, tools, and test automation takes resources. Manual testing is still needed, especially from a user's view.
+2.1.5 Shift Left – Test Earlier!
+-----------------------------------
+• This is the idea that testing should happen as early as possible in the SDLC.
+• It doesn't mean stopping later testing, just starting earlier.
+• How to "Shift Left":
+    ◦ Reviewing requirements early for problems.
+    ◦ Writing test cases before code is written.
+    ◦ Using CI/CD with automated tests.
+    ◦ Doing static analysis before dynamic testing.
+    ◦ Starting non-functional testing earlier, if possible.
+• Shift left might cost more effort/money at first, but saves a lot later.
+2.1.6 Retrospectives and Process Improvement
+----------------------------------------------
+• Retrospectives are meetings (often at project/iteration end) where the team discusses:
+    ◦ What went well.
+    ◦ What could be improved.
+    ◦ How to apply improvements in the future.
+• They are key for continuous improvement.
+• Benefits for Testing: More effective/efficient testing, better testware, improved team learning and cooperation.
+2.2 Test Levels and Test Types
+---------------------------------
+• Test Levels: Groups of test activities that happen at different development stages (e.g., testing individual parts vs. the whole system).
+• Test Types: Groups of test activities focused on specific quality characteristics (e.g., checking functions, or checking performance). Most test types can be done at any test level.
+2.2.1 Different Test Levels
+---------------------------
+There are five main levels:
+• Component Testing (Unit Testing): Testing individual parts of the software in isolation. Usually done by developers.
+• Component Integration Testing (Unit Integration Testing): Testing the connections and interactions between components.
+• System Testing: Testing the entire system's overall behavior and features, including how it works end-to-end and its non-functional aspects (like speed). Often done by an independent test team.
+• System Integration Testing: Testing the connections between your system and other external systems or services.
+• Acceptance Testing: Focused on validating that the system meets users' business needs and is ready to be used. Ideally, done by the actual users.
+2.2.2 Different Test Types
+---------------------------
+Four key types are:
+• Functional Testing: Checks "what" the software should do (e.g., does it calculate correctly?). Aims for completeness, correctness, and suitability of functions.
+• Non-functional Testing: Checks "how well" the system behaves. This includes things like:
+    ◦ Performance efficiency (how fast it is).
+    ◦ Usability (interaction capability) (how easy it is to use).
+    ◦ Reliability (how consistently it works).
+    ◦ Security (how protected it is).
+    ◦ Maintainability (how easy it is to fix/change).
+    ◦ Portability (flexibility) (how easily it moves to new environments).
+    ◦ Safety. Non-functional testing can start early and is crucial because late defects can be very damaging.
+• Black-Box Testing: Tests the software based on its external behavior or specifications, without knowing its internal code structure.
+• White-Box Testing: Tests the software based on its internal structure or implementation (like code, architecture, data flow).
+2.2.3 Confirmation Testing and Regression Testing
+-------------------------------------------------
+When software changes (e.g., new features or bug fixes), we need these tests:
+• Confirmation Testing: Confirms that a fixed defect has actually been resolved. This usually means re-running the test that found the original bug.
+• Regression Testing: Confirms that the changes or fixes haven't broken anything else in the system. These tests are often automated because they are run many times and grow over time.
+2.3 Maintenance Testing
+--------------------------
+• This is testing done on an already existing, live system when changes are made (e.g., fixing bugs, adding new features, or updating the environment).
+• It includes checking the new changes AND making sure old parts still work (regression testing).
+• The amount of testing depends on the risk, size of the system, and size of the change.
