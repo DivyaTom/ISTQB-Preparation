@@ -1,0 +1,69 @@
+Chapter 3: Static Testing 🕵️‍♀️ (80 minutes)
+------------------------------------------------
+This chapter focuses on checking software without running it.
+
+3.1 Static Testing Basics
+============================
+• No Execution: Unlike dynamic testing, static testing doesn't run the software.
+• Methods: It involves manual checks (like reviews) or tools (like static analysis) to evaluate code, documents, and designs.
+• Goals: Improve quality, find defects, and check characteristics like readability or completeness.
+• Who is Involved: Testers, business people, and developers often work together, especially during reviews.
+• Static Analysis Tools: These tools can find problems in code or documents, even before dynamic testing. They can check for specific code defects, maintainability, or security issues.
+3.1.1 What Can Be Checked by Static Testing?
+===========================================
+• Almost any document or code can be checked, such as requirements, source code, test plans, test cases, contracts, and models.
+• Static analysis tools need a structured format (like code).
+3.1.2 The Value of Static Testing
+====================================
+• Early Defect Detection: It can find defects in the earliest stages of development, which follows the "early testing" principle and saves money.
+• Finds Unique Defects: It can find problems that dynamic testing can't, like unreachable code or design issues in non-executable documents.
+• Improves Quality & Trust: Helps evaluate quality and builds confidence in documents.
+• Better Communication: Early static testing helps everyone understand the project better.
+• Cost Savings: Even though reviews can seem expensive, they usually lower overall project costs by preventing expensive fixes later.
+3.1.3 Differences Between Static Testing and Dynamic Testing
+=============================================================
+They are complementary (they work well together) but have differences:
+• Defect Detection:
+    ◦ Static testing finds defects directly.
+    ◦ Dynamic testing causes failures, and then you figure out the defect from the failure.
+• Code Coverage: Static testing can find defects in parts of code that are rarely used or hard to reach with dynamic testing.
+• Work Products: Static testing can check non-executable documents, while dynamic testing needs executable software.
+• Quality Characteristics: Static testing checks things like maintainability (not running code), while dynamic testing checks things like performance (running code).
+• Typical Defects Found by Static Testing: Problems in requirements (inconsistencies, missing parts), design problems, certain code errors (like undefined variables), security issues, or gaps in test coverage.
+3.2 Feedback and Review Process
+====================================
+||3.2.1 Benefits of Early and Frequent Feedback
+• Prevents Misunderstandings: Getting feedback early and often from stakeholders (users, managers) helps avoid misunderstandings about what's needed, saving costly rework later.
+• Better Understanding: Helps the development team understand what they are building better.
+||3.2.2 Activities in the Review Process
+Reviews follow a process, which can be made more or less formal:
+• Planning: Define the scope, what to check, who is involved, and timelines.
+• Review Initiation: Make sure everyone is ready and has the documents needed.
+• Individual Review: Each person checks the document on their own to find problems (anomalies), then logs them.
+• Communication and Analysis: The team discusses the found problems, decides if they are true defects, assigns owners, and agrees on actions. A meeting usually happens here.
+• Fixing and Reporting: Defects are reported and fixed. Once criteria are met, the document is accepted, and results are reported.
+||3.2.3 Roles and Responsibilities in Reviews
+Key people involved in reviews:
+• Manager: Decides what to review and provides resources.
+• Author: Creates the document being reviewed and fixes it.
+• Moderator (Facilitator): Leads the review meeting, keeps it on track, and ensures everyone can speak freely.
+• Scribe (Recorder): Collects problems found and records decisions.
+• Reviewer: Checks the document and finds problems.
+• Review Leader: Overall responsible for organizing the review.
+||3.2.4 Different Types of Reviews
+Reviews can be simple or very formal:
+• Informal Review: No strict process, main goal is to find problems.
+• Walkthrough: Led by the author, helps explain the document, get ideas, and find problems.
+• Technical Review: Done by technical experts, led by a moderator. Aims to get agreement on technical issues and find problems.
+• Inspection: The most formal type. Follows a complete process to find the maximum number of problems. Metrics are collected to improve the process.
+||3.2.5 Success Factors for Reviews
+To have good reviews:
+• Clear goals and "done" rules.
+• Choose the right type of review for the task.
+• Review small pieces of work at a time.
+• Give feedback to authors and stakeholders.
+• Give people enough time to prepare.
+• Get management support.
+• Make reviews a regular part of how the organization works.
+• Train participants.
+• Have good meeting leaders.
