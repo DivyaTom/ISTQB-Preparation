@@ -1,0 +1,33 @@
+Module 3: Static Testing
+(Recommended study time: 80 minutes)
+This module focuses on testing without running the software.
+• Static Testing Basics
+    ◦ Static testing evaluates work products (like code, specifications, designs) without executing the software. This can be done manually (e.g., reviews) or with tools (e.g., static analysis).
+    ◦ It aims to improve quality, detect defects, and assess characteristics like readability and consistency.
+    ◦ Almost any work product can be statically tested, including requirements, source code, test plans, and models. For static analysis tools, work products need a formal structure.
+    ◦ The value of static testing lies in its ability to:
+        ▪ Detect defects early in the SDLC, saving time and money.
+        ▪ Identify defects that dynamic testing might miss (e.g., unreachable code, design flaws).
+        ▪ Improve communication and create a shared understanding among stakeholders.
+        ▪ Reduce overall project costs by preventing costly later-stage fixes.
+    ◦ Differences between Static and Dynamic Testing:
+        ▪ Static testing does not execute code, while dynamic testing does.
+        ▪ Static testing finds defects directly, whereas dynamic testing causes failures from which defects are then determined.
+        ▪ Static testing can find defects in rarely executed code paths or non-executable work products.
+        ▪ Static testing is better for quality characteristics like maintainability, while dynamic testing is for performance efficiency.
+        ▪ Typical defects found easily by static testing include: inconsistencies in requirements, design flaws, certain coding errors, deviations from standards, and security vulnerabilities.
+• Feedback and Review Process
+    ◦ Early and frequent stakeholder feedback is crucial to prevent misunderstandings about requirements, ensure changes are implemented early, and focus on delivering value, avoiding costly rework and project failure.
+    ◦ The review process involves several activities:
+        ▪ Planning: Defining the review's scope, purpose, work product, objectives, and timeframe.
+        ▪ Review Initiation: Ensuring all participants are prepared and have access to materials.
+        ▪ Individual Review: Each reviewer examines the work product and logs anomalies, recommendations, and questions.
+        ▪ Communication and Analysis: Discussion (often in a meeting) to analyze anomalies, decide on status/actions, and determine the quality of the work product.
+        ▪ Fixing and Reporting: Creating defect reports for issues, and reporting the review results once exit criteria are met.
+    ◦ Roles in Reviews include: Manager (decides what to review, provides resources), Author (creates/fixes work product), Moderator (facilitates meeting), Scribe (records anomalies/decisions), Reviewer (performs review), and Review Leader (overall responsibility for the review).
+    ◦ Review Types vary in formality:
+        ▪ Informal Review: No defined process, no formal documented output, mainly for defect detection.
+        ▪ Walkthrough: Led by the author, can evaluate quality, educate, gain consensus, and detect anomalies.
+        ▪ Technical Review: Performed by technically qualified reviewers, led by a moderator, focuses on technical problems, quality evaluation, and defect detection.
+        ▪ Inspection: The most formal type, follows a complete process, aims to find the maximum number of anomalies, collects metrics for process improvement.
+    ◦ Success factors for reviews include: clear objectives, appropriate review type, small work product chunks, timely feedback, adequate preparation time, management support, cultural integration, and proper training.
