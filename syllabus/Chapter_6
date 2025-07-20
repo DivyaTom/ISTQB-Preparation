@@ -1,0 +1,36 @@
+Chapter 6: Test Tools ⚙️ (20 minutes)
+This chapter talks about tools that help with testing.
+
+6.1 Tool Support for Testing
+==================================
+Many types of tools help with testing activities:
+• Test Management Tools: Help manage requirements, tests, defects, and configurations.
+• Static Testing Tools: Help with reviews and static analysis.
+• Test Design/Implementation Tools: Generate test cases and test data.
+• Test Execution/Coverage Tools: Automate running tests and measure coverage.
+• Non-functional Testing Tools: Perform tests that are hard to do manually (e.g., performance testing).
+• DevOps Tools: Support continuous integration/delivery pipelines.
+• Collaboration Tools: Help teams communicate.
+• Scalability/Deployment Tools: (e.g., virtual machines, containers).
+• Even simple tools like spreadsheets can be used for testing.
+
+6.2 Benefits and Risks of Test Automation
+===========================================
+Simply buying a tool doesn't guarantee success; it takes effort to use them well.
+Potential || Benefits of Automation:||
+• Time Savings: Reduces repetitive manual work (e.g., running regression tests, entering data).
+• Fewer Human Errors: More consistent and repeatable tests.
+• Objective Assessment: Provides measurements (like coverage) that are hard for humans to get.
+• Easier Reporting: Provides quick access to test progress, failure rates, etc..
+• Faster Feedback: Leads to earlier defect detection and quicker releases.
+• More Time for Testers: Frees up testers to design new, deeper tests.
+
+||Potential Risks of Automation||:
+• Unrealistic Expectations: Believing a tool will do everything easily.
+• Inaccurate Estimates: Underestimating the time, cost, and effort to introduce and maintain tools/scripts.
+• Using Tools When Not Needed: Automating tests that are better done manually.
+• Over-reliance: Ignoring the need for human critical thinking.
+• Vendor Dependence: Issues if the tool vendor stops support or goes out of business.
+• Open-Source Risks: Open-source tools might be abandoned without updates.
+• Compatibility Issues: Tool might not work with the development platform.
+• Wrong Tool Choice: Picking a tool that doesn't meet regulatory or safety needs
